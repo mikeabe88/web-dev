@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bookings</title>
+   </head>
+<body>
+    <!-- Header with Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Search Form -->
+        <section>
+            <form action="/search" method="get">
+                <input type="text" placeholder="Try 'New York'" name="search">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- Listings -->
+        <section>
+            <h2>Featured Listings</h2>
+            <div class="listing">
+                <img src="listing1.jpg" alt="Listing 1">
+                <h3>Cozy Cottage</h3>
+                <p>Located in the heart of the city.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="listing">
+                <img src="listing2.jpg" alt="Listing 2">
+                <h3>Modern Apartment</h3>
+                <p>Stunning views and close to nightlife.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2023 Your Website Name</p>
+    </footer>
+</body>
+</html>

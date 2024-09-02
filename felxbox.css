@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-feature {
+    background-color: #ff5a5f;
+    color: white;
+}
+
+.side-feature {
+    background-color: #333;
+    color: white;
+}

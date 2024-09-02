@@ -1,0 +1,92 @@
+.heading  {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    background-color: green;
+    color: rgb(249, 249, 249); 
+}
+.main-one{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+#intro {
+    color: green;
+}
+
+.offer {
+    color: red;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    font-family: century gothic;
+    background-color: bisque;
+    color: rgb(79, 3, 41);
+}
+.main-two{
+    width: 1000px;
+    height: 500px;
+    border: rgb(105, 6, 6);
+    border-style: solid;
+    border-width: 5px;
+    margin: 20px ;
+    padding: 20px; 
+    position: absolute;
+    top: 300px;
+}
+.offer-1{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.main-three{
+    background-image: url("../images/listing1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: gray;
+    border-style: solid dotted dotted solid;
+    border-width: 1px 10px 10px 1px;
+    margin: 130px 40px 50px 160px ;
+    padding: 2% 2% 2% 2%;
+    position: absolute;
+    top: 1000px;
+    left: 10px;
+    
+}
+p .one{
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+p .two{
+    color: #6c4e30;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+p .three{
+    color: rgb(151, 149, 148);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: overline;
+    text-decoration-color: red;
+}
+
+.content-1{
+    position: absolute;
+    top: 1600px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+
+}
+.home{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+}
